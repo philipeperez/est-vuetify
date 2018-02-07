@@ -101,6 +101,11 @@
             <div>
               <v-icon left class="secondary--text">today</v-icon>
               <b>Data da remessa: {{ remessa.data | date }}</b>
+
+            </div>
+            <div>
+              <v-icon left>fa-dropbox</v-icon>
+              <b>Quantidade de equipamentos: {{ remessa.itensRemessa.length }}</b>
             </div>
           </v-flex>
 
