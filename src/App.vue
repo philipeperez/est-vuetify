@@ -61,13 +61,13 @@
             id: 'remessas-link',
             exact: false
           },
-          {
-            name: 'Relatórios',
-            icon: 'pie_chart',
-            linkName: 'Relatorios',
-            id: 'relatorios-link',
-            exact: false
-          }
+//          {
+//            name: 'Relatórios',
+//            icon: 'pie_chart',
+//            linkName: 'Relatorios',
+//            id: 'relatorios-link',
+//            exact: false
+//          }
         ]
       }
     }

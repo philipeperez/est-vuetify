@@ -15,7 +15,7 @@
           <v-divider></v-divider>
 
           <v-card-actions>
-            <!--<small>{{ article.publishedAt | dateTime }}</small>-->
+            <small>{{ article.publishedAt | dateTime }}</small>
             <v-spacer></v-spacer>
             <v-btn flat color="orange" :href="article.url" target="_blank">Ler mais...</v-btn>
           </v-card-actions>

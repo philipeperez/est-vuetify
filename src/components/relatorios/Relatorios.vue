@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <router-view></router-view>
-    <v-btn @click="drawer = !drawer">Toogle</v-btn>
+    <v-btn @click="drawer = !drawer">Toggle</v-btn>
 
     <v-navigation-drawer app v-model="drawer">
       <v-expansion-panel>
